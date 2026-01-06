@@ -119,11 +119,9 @@ See [deployment_guide.md](deployment_guide.md) for detailed instructions.
 ## 👨‍💻 Author
 
 **Zubair Ahmad Beigh**  
-Full-Stack Developer | MERN Stack Enthusiast
+Full-Stack Developer | 
 
 - GitHub: [@zubair-ahmad-beigh](https://github.com/zubair-ahmad-beigh)
-- Portfolio: [Your Portfolio]
-- LinkedIn: [Your LinkedIn]
 
 ### 💡 Project Highlights
 - 🌙 Dark Mode with persistence
