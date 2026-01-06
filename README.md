@@ -290,7 +290,31 @@ This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
 
-Built with ❤️ using React, Express, MongoDB, and Socket.io
+**Zubair Ahmad Beigh**
+
+Full-Stack Developer passionate about building modern web applications with cutting-edge technologies.
+
+### 🛠️ Built With
+- **Frontend**: React, CSS3, Context API
+- **Backend**: Node.js, Express.js, MongoDB
+- **Real-time**: Socket.io
+- **Authentication**: JWT, bcryptjs
+
+### 🔗 Connect
+- **GitHub**: [@zubair-ahmad-beigh](https://github.com/zubair-ahmad-beigh)
+- **Portfolio**: [Your Portfolio URL]
+- **LinkedIn**: [Your LinkedIn]
+
+### 💡 Project Highlights
+- 🌙 Dark Mode with localStorage persistence
+- ⚡ Real-time updates using WebSocket
+- 💬 Unlimited nested comment threads
+- 🎨 Modern UI with smooth animations
+- 📱 Fully responsive design
+
+---
+
+*Crafted with ❤️ and lots of ☕*
 
 ## 🙏 Acknowledgments
 
