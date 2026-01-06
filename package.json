@@ -1,0 +1,21 @@
+{
+    "name": "discussion-thread-system",
+    "version": "1.0.0",
+    "description": "A complete discussion platform with posts and unlimited nested comments",
+    "main": "index.js",
+    "scripts": {
+        "backend": "cd backend && npm start",
+        "frontend": "cd frontend && npm start",
+        "demo": "cd backend && node createDemoData.js"
+    },
+    "keywords": [
+        "discussion",
+        "comments",
+        "nested",
+        "react",
+        "express",
+        "mongodb"
+    ],
+    "author": "",
+    "license": "MIT"
+}
