@@ -114,7 +114,6 @@ discussion-thread-system/
 2. Set `REACT_APP_API_URL`
 3. Deploy
 
-See [deployment_guide.md](deployment_guide.md) for detailed instructions.
 
 ## 👨‍💻 Author
 
