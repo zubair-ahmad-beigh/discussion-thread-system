@@ -103,16 +103,38 @@ discussion-thread-system/
 
 ## 🚀 Deployment
 
-**Backend (Render):**
-1. Push to GitHub
-2. Connect repository to Render
-3. Set environment variables
-4. Deploy
+### Backend (Render)
 
-**Frontend (Vercel):**
-1. Connect repository to Vercel
-2. Set `REACT_APP_API_URL`
-3. Deploy
+**Live URL:** https://discussion-thread-system.onrender.com
+
+1. Push code to GitHub
+2. Create new **Web Service** on Render
+3. Connect your repository
+4. Configure:
+   - **Build Command:** `cd backend && npm install`
+   - **Start Command:** `cd backend && npm start`
+5. Add environment variables:
+   - `MONGODB_URI` - Your MongoDB Atlas connection string
+   - `JWT_SECRET` - Secret key for JWT tokens
+   - `FRONTEND_URL` - Your frontend URL (add after frontend deployment)
+   - `NODE_ENV=production`
+6. Deploy
+
+### Frontend (Render)
+
+1. Create new **Static Site** on Render
+2. Connect your repository
+3. Configure:
+   - **Root Directory:** `frontend`
+   - **Build Command:** `npm install && npm run build`
+   - **Publish Directory:** `build`
+4. Add environment variable:
+   - `REACT_APP_API_URL=https://discussion-thread-system.onrender.com`
+5. Deploy
+6. **Important:** After deployment, update backend's `FRONTEND_URL` environment variable with your frontend URL
+
+📖 **Detailed Guide:** See [DEPLOYMENT.md](DEPLOYMENT.md) for complete instructions
+
 
 
 ## 👨‍💻 Author
