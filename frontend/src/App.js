@@ -1,16 +1,11 @@
-import React, { useState } from 'react';
-import { AuthProvider, useAuth } from './context/AuthContext';
+import React from 'react';
+import { AuthProvider } from './context/AuthContext';
 import { ThemeProvider } from './context/ThemeContext';
 import PostView from './components/PostView';
-import AuthModal from './components/Auth/AuthModal';
 import ThemeToggle from './components/ThemeToggle';
-import Avatar from './components/Avatar';
 import './App.css';
 
 function AppContent() {
-  const { user, logout, isAuthenticated } = useAuth();
-  const [showAuthModal, setShowAuthModal] = useState(false);
-
   // For demo purposes, using a hardcoded post ID
   const demoPostId = '695d60eeec8b9061bb8cc54c';
 

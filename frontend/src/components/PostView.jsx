@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import axios from 'axios';
-import { useAuth } from '../context/AuthContext';
 import { useSocket } from '../hooks/useSocket';
 import CommentList from './CommentList';
 import CommentForm from './CommentForm';
@@ -13,7 +12,6 @@ const PostView = ({ postId }) => {
     const [comments, setComments] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
-    const { isAuthenticated } = useAuth();
 
     // Fetch post data
     useEffect(() => {

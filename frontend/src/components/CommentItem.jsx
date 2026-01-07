@@ -6,7 +6,6 @@ import './CommentItem.css';
 
 const CommentItem = ({ comment, postId, onCommentAdded, depth = 0 }) => {
     const [showReplyForm, setShowReplyForm] = useState(false);
-    const { isAuthenticated } = useAuth();
 
     const handleReplyClick = () => {
         setShowReplyForm(!showReplyForm);
