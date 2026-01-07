@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { useAuth } from '../context/AuthContext';
 import Avatar from './Avatar';
 import CommentForm from './CommentForm';
 import './CommentItem.css';
