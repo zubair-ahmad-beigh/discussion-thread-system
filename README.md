@@ -120,20 +120,21 @@ discussion-thread-system/
    - `NODE_ENV=production`
 6. Deploy
 
-### Frontend (Render)
+### Frontend (Netlify)
 
-1. Create new **Static Site** on Render
-2. Connect your repository
-3. Configure:
-   - **Root Directory:** `frontend`
-   - **Build Command:** `npm install && npm run build`
-   - **Publish Directory:** `build`
-4. Add environment variable:
+1. Go to [Netlify](https://app.netlify.com)
+2. **Add new site** → **Import from Git**
+3. Select your repository
+4. Configure:
+   - **Base directory:** `frontend`
+   - **Build command:** `npm run build`
+   - **Publish directory:** `build`
+5. Add environment variable:
    - `REACT_APP_API_URL=https://discussion-thread-system.onrender.com`
-5. Deploy
-6. **Important:** After deployment, update backend's `FRONTEND_URL` environment variable with your frontend URL
+6. Deploy
+7. **Important:** After deployment, update backend's `FRONTEND_URL` environment variable with your Netlify URL
 
-📖 **Detailed Guide:** See [DEPLOYMENT.md](DEPLOYMENT.md) for complete instructions
+📖 **Detailed Guide:** See [Netlify Deployment Guide](C:\Users\beigh\.gemini\antigravity\brain\ebd836ce-8d99-4ad0-8761-f3477e0ca3d9\netlify_deployment_guide.md)
 
 
 
